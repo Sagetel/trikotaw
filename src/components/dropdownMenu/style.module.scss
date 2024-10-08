@@ -1,0 +1,39 @@
+.menu {
+    position: relative;
+    &__name {
+        cursor: pointer;
+        border: 2px solid #5a5a5a;
+        background-color: #1b1c22;
+        color: #aaaaaa;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 18px;
+        height: 21px;
+        min-width: 245px;
+        width: max-content;
+        span {
+            color: white;
+        }
+    }
+    &__list {
+        position: absolute;
+        top: 43px;
+        left: 0px;
+        width: max-content;
+        background-color: #5a5a5a;
+        min-width: 258px;
+        padding: 5px;
+        border-radius: 5px;
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    &__item {
+        cursor: pointer;
+        font-size: 19px;
+        &:hover {
+            color: #d3d3d3;
+        }
+    }
+}

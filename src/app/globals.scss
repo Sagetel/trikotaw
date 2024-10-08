@@ -1,0 +1,28 @@
+@import "./_reset.scss";
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1b1c22;
+    color: #feffff;
+    ::selection {
+        background-color: #bc2829;
+        color: white;
+    }
+
+    ::-moz-selection {
+        background-color: #bc2829;
+        color: white;
+    }
+}
+* {
+    text-decoration: none;
+    cursor: default;
+}
+[class*="__container"] {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
